@@ -11,7 +11,6 @@
   inputs.src-libravatar-master.ref   = "refs/heads/master";
   inputs.src-libravatar-master.owner = "juancarlospaco";
   inputs.src-libravatar-master.repo  = "nim-libravatar";
-  inputs.src-libravatar-master.dir   = "";
   inputs.src-libravatar-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
